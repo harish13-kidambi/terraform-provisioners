@@ -1,6 +1,6 @@
 resource "aws_key_pair" "provisioner" {
   key_name   = "provisioner"
-  public_key = file("C:\\Users\\user\\provisioner.pub")
+  public_key = file("C:\\Users\\Harish\\kubernetes.pub")
 }
 
 resource "aws_security_group" "allow_tls" {

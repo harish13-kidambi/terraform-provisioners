@@ -8,10 +8,10 @@ terraform {
   }
 
   backend "s3" {
-        bucket = "terraform-k8-course"
+        bucket = "terraform-docker-kub8-resource"
         key    = "provisioner"
         region = "ap-south-1"
-        dynamodb_table = "terraform-lock"
+        dynamodb_table = "Terraform-lock"
     }
 }
 
